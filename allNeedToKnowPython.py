@@ -26,3 +26,14 @@ gpa = "69%"
 print("Name: "+name+" Age: "+str(age)+" College: "+college+" GPA: "+gpa)
 ''' no type conversion '''
 print("Name: "+name+" Age: ",age," College: "+college+" GPA: "+gpa)
+
+
+''' Numeric operators '''
+
+''' addition +
+subtraction -
+multiplication *
+exponentiation **
+division / (float)
+division // (floor)
+modulus % '''
