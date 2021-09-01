@@ -37,3 +37,12 @@ exponentiation **
 division / (float)
 division // (floor)
 modulus % '''
+
+
+''' Comparison Operators '''
+''' greater than >
+less than <
+equals ==
+not equal !=
+greater than or equals >=
+less than or equals <= '''
