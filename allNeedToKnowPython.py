@@ -46,3 +46,10 @@ equals ==
 not equal !=
 greater than or equals >=
 less than or equals <= '''
+
+
+''' logical operators '''
+
+''' and	-> Logical AND: True if both the operands are true	x and y
+or ->	Logical OR: True if either of the operands is true 	x or y
+not ->	Logical NOT: True if operand is false 	not x '''
