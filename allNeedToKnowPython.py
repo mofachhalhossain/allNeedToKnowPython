@@ -27,25 +27,42 @@ print("Name: "+name+" Age: "+str(age)+" College: "+college+" GPA: "+gpa)
 ''' no type conversion '''
 print("Name: "+name+" Age: ",age," College: "+college+" GPA: "+gpa)
 
+''' Namespaces/variable types or local, global, inner variables '''
 
-''' Numeric operators '''
+''' # var1 is in the global namespace
+var1 = 5
+def some_func():
+
+	# var2 is in the local namespace
+	var2 = 6
+	def some_inner_func():
+
+		# var3 is in the nested local
+		# namespace
+		var3 = 7
+
+ '''
+
+"""  Numeric operators  """
 
 ''' addition +
-subtraction -
-multiplication *
-exponentiation **
-division / (float)
-division // (floor)
-modulus % '''
+	subtraction -
+	multiplication *
+	exponentiation **
+	division / (float)
+	division // (floor)
+	modulus % 
+'''
 
 
 ''' Comparison Operators '''
 ''' greater than >
-less than <
-equals ==
-not equal !=
-greater than or equals >=
-less than or equals <= '''
+	less than <
+	equals ==
+	not equal !=
+	greater than or equals >=
+	less than or equals <= 
+'''
 
 
 ''' logical operators '''
@@ -82,18 +99,35 @@ print(a is not b)
 print(a is c)
 
 
-''' Namespaces/variable types or local, global, inner variables '''
+""" Bitwise Operators """
 
-''' # var1 is in the global namespace
-var1 = 5
-def some_func():
+""" 
+&	Bitwise AND	x & y
+|	Bitwise OR	x | y
+~	Bitwise NOT	~x
+^	Bitwise XOR	x ^ y
+>>	Bitwise right shift	x>>
+<<	Bitwise left shift	x<< 
+"""
+print("Bitwise operator: ")
+# Examples of Bitwise operators
+a = 10
+b = 4
 
-	# var2 is in the local namespace
-	var2 = 6
-	def some_inner_func():
+# Print bitwise AND operation
+print(a & b)
 
-		# var3 is in the nested local
-		# namespace
-		var3 = 7
+# Print bitwise OR operation
+print(a | b)
 
- '''
+# Print bitwise NOT operation
+print(~a)
+
+# print bitwise XOR operation
+print(a ^ b)
+
+# print bitwise right shift operation
+print(a >> 2)
+
+# print bitwise left shift operation
+print(a << 2)
