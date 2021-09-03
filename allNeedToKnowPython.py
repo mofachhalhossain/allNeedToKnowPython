@@ -85,20 +85,6 @@ print(a or b)
 print(not a)
 
 
-''' Identity Operators '''
-
-''' (is and is not) are the identity operators both are used to check if two values 
-are located on the same part of the memory. Two variables that are equal do not 
-imply that they are identical. '''
-
-a = 10
-b = 20
-c = a
-
-print(a is not b)
-print(a is c)
-
-
 """ Bitwise Operators """
 
 """ 
@@ -131,3 +117,36 @@ print(a >> 2)
 
 # print bitwise left shift operation
 print(a << 2)
+
+
+''' Identity Operators '''
+
+''' (is and is not) are the identity operators both are used to check if two values 
+are located on the same part of the memory. Two variables that are equal do not 
+imply that they are identical. '''
+
+a = 10
+b = 20
+c = a
+
+print(a is not b)
+print(a is c)
+
+
+""" Membership Operators
+
+in and not in are the membership operators; used to test whether a value or variable is in a sequence.
+
+in            True if value is found in the sequence
+not in        True if value is not found in the sequence
+
+ """
+
+x = 20
+list = [10, 20, 30, 40, 50]
+
+if (x not in list):
+	print("x is NOT present in given list")
+else:
+	print("x is present in given list")
+
