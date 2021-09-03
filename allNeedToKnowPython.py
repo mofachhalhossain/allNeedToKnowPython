@@ -157,3 +157,13 @@ a, b = 10, 20
 
 min = a if a < b else b
 print(min)
+
+
+""" console input """
+
+val = input("What's your name?")
+print("Your name is: ",val)
+
+#type casting
+integer = int(input("Enter any digit"))
+print("You entered: ", integer)
