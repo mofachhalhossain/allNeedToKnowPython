@@ -150,3 +150,10 @@ if (x not in list):
 else:
 	print("x is present in given list")
 
+
+''' ternary operator: '''
+
+a, b = 10, 20
+
+min = a if a < b else b
+print(min)
