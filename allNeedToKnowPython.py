@@ -175,3 +175,12 @@ print("values: ", x,y)
 # type casting
 a, b = [int(a) for a in input("Enter Integers: ").split()]
 print("Integer values: ", a,b)
+
+
+'''End parameter in print()'''
+print("Hello", end=' ')
+print("World!", end='\n')
+
+'''Separate parameter in print()'''
+print('13','4','1994', sep='-')
+print("mr","gmail.com", sep='@')
