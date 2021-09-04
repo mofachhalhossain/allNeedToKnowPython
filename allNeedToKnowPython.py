@@ -167,3 +167,11 @@ print("Your name is: ",val)
 #type casting
 integer = int(input("Enter any digit"))
 print("You entered: ", integer)
+
+'''taking multiple input'''
+x,y = input("Enter values: ").split()
+print("values: ", x,y)
+
+# type casting
+a, b = [int(a) for a in input("Enter Integers: ").split()]
+print("Integer values: ", a,b)
