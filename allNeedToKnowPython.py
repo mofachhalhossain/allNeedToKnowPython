@@ -184,3 +184,12 @@ print("World!", end='\n')
 '''Separate parameter in print()'''
 print('13','4','1994', sep='-')
 print("mr","gmail.com", sep='@')
+
+
+
+'''Data Types'''
+
+# strings
+# lists
+# tuples
+# iteration
